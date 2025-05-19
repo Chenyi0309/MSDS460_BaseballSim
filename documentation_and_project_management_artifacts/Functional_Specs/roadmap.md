@@ -76,6 +76,5 @@ This roadmap outlines the planned phases of our AI-assisted Monte Carlo baseball
 - [ ] Compare hypothetical team performance across seasons
 - [ ] Add dashboard-style report interface (Streamlit / HTML)
 - [ ] Performance profiling and simulation speed improvements
-- [ ] Optional: multi-language support (English + Chinese)
 
 ---
