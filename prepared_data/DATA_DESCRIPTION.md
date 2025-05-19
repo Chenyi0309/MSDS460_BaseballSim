@@ -1,5 +1,5 @@
-````markdown
-# Data Description: White Sox and Cubs (2023 Season)
+
+## Data Description: White Sox and Cubs (2023 Season)
 
 This project uses real MLB statistics from the 2023 season, specifically for the **Chicago White Sox** and **Chicago Cubs**. All data are dynamically retrieved using the [pybaseball](https://github.com/jldbc/pybaseball) Python package, which provides streamlined access to data from [Baseball Reference](https://www.baseball-reference.com/) and [Baseball Savant](https://baseballsavant.mlb.com/).
 
@@ -97,4 +97,3 @@ All data are pulled at runtime using the above scripts. This ensures that the si
 
 No proprietary or offline data sources are used. All statistics are publicly available through MLB-affiliated databases.
 
-```
