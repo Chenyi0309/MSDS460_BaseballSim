@@ -4,7 +4,7 @@ This activity log documents major development activities for our baseball simula
 
 ---
 
-## 🗓️ Development Activities (Chronological Log)
+## Development Activities (Chronological Log)
 
 - **May 17 18:00–20:00**: Designed simulation framework with innings, scoring rules, and Poisson-based assumptions (Lead: Andrew, AI-assisted).
 - **May 18 09:00–10:30**: Implemented base game simulation loop in Python; simulated 10 games with static lambda parameters (Andrew).
@@ -18,9 +18,9 @@ This activity log documents major development activities for our baseball simula
 
 ---
 
-## 📌 Backlog Checklist
+## Backlog Checklist
 
-### 🟢 Open Items
+### Open Items
 
 #### Simulation Engine
 - [ ] **BL-004**: Simulate pitch-by-pitch logic (expand beyond inning-level)
@@ -45,7 +45,7 @@ This activity log documents major development activities for our baseball simula
 
 ---
 
-### ✅ Completed Items
+### Completed Items
 
 #### Core Simulation
 - [x] **BL-032**: Simulate games using Poisson-distributed runs per inning
