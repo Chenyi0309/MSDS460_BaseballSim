@@ -1,76 +1,64 @@
-# Activity List - Example
+# Activity List – Baseball Simulation Project
 
-This is a sample activity list for a Baseball Simulator project.
+This activity log documents major development activities for our baseball simulation project using Monte Carlo methods and probabilistic modeling. The project includes AI-assisted development, simulation code, and documentation for reproducibility and collaboration.
 
-- May 19 09:00–10:00: Reviewed AI-generated EDA code (Andrew).
-- May 19 10:00–11:00: Wrote missing test cases (Sam).
-- May 20 13:00–14:00: Updated documentation (Priya).
+---
 
-## Backlog Checklist
+## 🗓️ Development Activities (Chronological Log)
 
-### Open Items
+- **May 17 18:00–20:00**: Designed simulation framework with innings, scoring rules, and Poisson-based assumptions (Lead: Andrew, AI-assisted).
+- **May 18 09:00–10:30**: Implemented base game simulation loop in Python; simulated 10 games with static lambda parameters (Andrew).
+- **May 18 14:00–15:00**: Developed histogram visualization for score distributions and tested 1000-game output (Sam).
+- **May 18 15:30–17:00**: Drafted simulation model explanation (EDA rationale, statistical logic) using AI-assisted prompts (Andrew + ChatGPT).
+- **May 19 09:00–10:00**: Reviewed and refactored AI-generated EDA code for readability and modularity (Andrew).
+- **May 19 10:00–11:00**: Wrote unit test cases for simulation edge cases: tie games, negative λ input handling (Sam).
+- **May 20 13:00–14:00**: Updated README and wrote draft for `Functional_Specs.md` (Priya).
+- **May 20 15:00–16:00**: Added Poisson-based score comparison visualization and summary stats (Sam).
+- **May 21 10:00–11:00**: Created roadmap and WBS breakdown for advanced modeling features (AI-assisted draft + team edits).
 
-#### Initialization & Data Loading
-- [ ] **BL-001**: Initialize game state with teams, lineups, and starting pitchers
-- [ ] **BL-002**: Load basic player stats for teams
-- [ ] **BL-003**: Error handling for missing/corrupt player data
+---
+
+## 📌 Backlog Checklist
+
+### 🟢 Open Items
 
 #### Simulation Engine
-- [ ] **BL-004**: Simulate individual pitch outcomes based on player stats
-- [ ] **BL-005**: Simulate full at-bats pitch-by-pitch
-- [ ] **BL-006**: Update game state after every at-bat
-- [ ] **BL-007**: Simulate full 9-inning games
-- [ ] **BL-008**: Simulate multiple games in a series and aggregate outcomes
-- [ ] **BL-009**: Save and restore simulation state
+- [ ] **BL-004**: Simulate pitch-by-pitch logic (expand beyond inning-level)
+- [ ] **BL-006**: Update game state per batter/pitch
+- [ ] **BL-007**: Handle extra innings in tie scenarios
+- [ ] **BL-009**: Add simulation parameter CLI flags
 
-#### Logging & Analysis
-- [ ] **BL-010**: Record detailed pitch logs for each simulation
-- [ ] **BL-011**: Scrollable pitch log with play-by-play text
+#### Advanced Features
+- [ ] **BL-021**: Use real batter/pitcher splits
+- [ ] **BL-023**: Integrate salary + contract constraints
+- [ ] **BL-024**: Account for player injuries or availability
+- [ ] **BL-025**: Include pitch type/velocity effects
 
-#### User Interface
-- [ ] **BL-012**: Graphical baseball diamond with current base runners
-- [ ] **BL-013**: Real-time scoreboard (inning, outs, score, balls, strikes)
-- [ ] **BL-014**: Play, Pause, Fast Forward controls
-- [ ] **BL-015**: Adjustable pitch delay speed with slider
-- [ ] **BL-016**: Simulation pauses instantly when requested
+#### Visualization & Reporting
+- [ ] **BL-014**: Add scoreboard-style live game output
+- [ ] **BL-016**: Dynamic win probability graph during simulation
 
-#### Scheduling & Planning
-- [ ] **BL-017**: Load upcoming two-week schedule for teams
-
-#### Testing & Validation
-- [ ] **BL-018**: Unit tests for pitch simulation and game state updates
-- [ ] **BL-019**: Validation on user inputs and loaded data
-- [ ] **BL-020**: Clear error notifications for schedule/data loading failures
-
-#### Advanced Simulation Features
-- [ ] **BL-021**: Batter vs pitcher splits for lineup recommendations
-- [ ] **BL-022**: Model pitcher fatigue for rotation recommendations
-- [ ] **BL-023**: Integrate salary and contract data for lineup/rotation constraints
-- [ ] **BL-024**: Factor player injury histories/statuses into availability
-- [ ] **BL-025**: Include pitch types and velocities in simulation
-- [ ] **BL-026**: Pitch velocity influences pitch effectiveness
-
-#### Project Infrastructure & Documentation
-- [ ] **BL-027**: Set up Go module and workspace structure
-- [ ] **BL-028**: Set up Hugo documentation site with code mounts
-- [ ] **BL-029**: Add CI/CD pipeline for build and test automation
-- [ ] **BL-030**: Write developer onboarding and contribution guide
-- [ ] **BL-031**: Set up code review and issue tracking process
+#### Documentation
+- [ ] **BL-028**: Host Hugo-based docs site
+- [ ] **BL-030**: Contributor onboarding guide
+- [ ] **BL-031**: Issue tracker + PR workflow setup
 
 ---
 
-### Completed Items
+### ✅ Completed Items
 
-#### Data Preparation & Normalization
-- [x] **BL-032**: Implement data_prepper module for CSV cleaning/normalization
-- [x] **BL-033**: Extract and standardize handedness and position columns
-- [x] **BL-034**: Ensure all stats are numeric and player IDs are consistent
-- [x] **BL-035**: Output clean, ready-to-load CSVs for simulation
-- [x] **BL-036**: Add position flexibility metric and boolean columns for each position
-- [x] **BL-038**: Remove stat family/sub-header rows from all cleaned and team totals CSVs
+#### Core Simulation
+- [x] **BL-032**: Simulate games using Poisson-distributed runs per inning
+- [x] **BL-033**: Handle tie scenarios and simulate extra innings
+- [x] **BL-034**: Generate and visualize score histograms (matplotlib)
+
+#### Data & Parameters
+- [x] **BL-035**: Define base scoring parameters (λ_A, λ_B) and conduct what-if analysis
+- [x] **BL-036**: Test model behavior under different λ ranges (0.3 to 0.8)
+
+#### Collaboration & AI Usage
+- [x] **BL-037**: AI-assisted design of simulation components and user stories
+- [x] **BL-038**: Integrated AI-generated starter code and customized logic
 
 ---
-
-**Author:** Andrew D'Amico
-**Email:** Andrew.Damico@u.northwestern.edu
 
