@@ -1,3 +1,5 @@
+Sample Repository Structure
+
 Root/  
   functional_code/  
   prepared_data/  
@@ -10,4 +12,4 @@ Root/
     Roadmap  
   results/  
   supplementary_code/  
-    raw_data_processing/  # MSDS460_BaseballSim
+    raw_data_processing/  
