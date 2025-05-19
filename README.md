@@ -1,5 +1,6 @@
-Sample Repository Structure
+### Sample Repository Structure
 
+```
 Root/  
   functional_code/  
   prepared_data/  
@@ -13,3 +14,4 @@ Root/
   results/  
   supplementary_code/  
     raw_data_processing/  
+```
