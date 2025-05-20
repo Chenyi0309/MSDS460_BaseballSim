@@ -22,23 +22,15 @@ The Cubs won more than half the games simulated, while the White Sox had a lower
 
 ## Visualizations
 
-### 1. Win Rate Distribution
+### 1. Batting Average (AVG) Distribution
 
-This bar chart compares the number of simulations won by each team:
+This chart visualizes the batting average distributions for both teams:
 
-![Win Rate Distribution](./win_rate_distribution.png)
-
----
-
-### 2. Score Distribution
-
-This histogram shows how many runs each team scored across the simulations:
-
-![Score Distribution](./score_distribution.png)
+![Batting Average](./avg_distribution.png)
 
 ---
 
-### 3. Innings Pitched (IP) Distribution
+### 2. Innings Pitched (IP) Distribution
 
 This chart shows the distribution of total innings pitched among selected pitchers:
 
@@ -46,11 +38,19 @@ This chart shows the distribution of total innings pitched among selected pitche
 
 ---
 
-### 4. Batting Average (AVG) Distribution
+### 3. Score Distribution
 
-This chart visualizes the batting average distributions for both teams:
+This histogram shows how many runs each team scored across the simulations:
 
-![Batting Average](./avg_distribution.png)
+![Score Distribution](./score_distribution.png)
+
+---
+
+### 4. Win Rate Distribution
+
+This bar chart compares the number of simulations won by each team:
+
+![Win Rate Distribution](./win_rate_distribution.png)
 
 ---
 
@@ -60,7 +60,7 @@ All results were generated using the code in:
 
 ```
 
-functional\_code/codes.ipynb
+functional_code/codes.ipynb
 
 ````
 
