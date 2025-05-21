@@ -20,6 +20,7 @@
 - [Limitations](#limitations)
 - [Future Improvements](#future-improvements)
 - [How to Reproduce](#how-to-reproduce)
+- [AI Assistance](#ai-assistance)
 - [License](#license)
 
 ---
@@ -145,6 +146,18 @@ jupyter notebook functional_code/codes.ipynb
 ```
 
 All figures will be saved in the `results/` folder.
+
+---
+
+## AI Assistance
+
+We used AI tools (e.g., ChatGPT) to assist in the following areas:
+
+- Debugging Python code and resolving logic issues
+- Designing and refining the simulation structure
+- Writing documentation and project management artifacts (e.g., Work Breakdown Structure, Status Log, Functional Specs)
+
+All AI-assisted contributions were reviewed and validated by our team to ensure correctness and clarity.
 
 ---
 
