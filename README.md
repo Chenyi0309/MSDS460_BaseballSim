@@ -2,7 +2,7 @@
 # ⚾ MSDS460 Final Project – Simulating MLB Games with Real Player Stats  
 **A Monte Carlo Simulation of White Sox vs. Cubs Based on 2023 Season Performance**
 
-**Authors**: Chenyi Zhao, Zixuan Zhang, Yahui Qian, Daisy Feng  
+**Authors**: Chenyi Zhao, Zixuan Zhang, Yahui Qian, Daisy Feng, Generative AI  
 **Course**: MSDS 460 | Instructor: William (Bill) T. Mickelson, PhD  
 **Dataset Source**: [pybaseball](https://github.com/jldbc/pybaseball) - MLB 2023 Season Stats  
 
